@@ -65,8 +65,8 @@ app.use(`/api/${process.env.API_VERSION}/discount`, discountRouter);
 app.use(`/api/${process.env.API_VERSION}/dashboard`, dashboardRouter);
 app.use(`/api/${process.env.API_VERSION}/feedback`, feedbackRouter);
 
-app.listen(process.env.PORT, process.env.HOST, () => {
+app.listen(() => {
   console.log(
-    `Server is running on host ${process.env.HOST} port ${process.env.PORT}`
+    `Server is running...`
   );
 });
