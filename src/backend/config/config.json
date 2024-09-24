@@ -18,10 +18,10 @@
     "logging": false
   },
   "production": {
-    "username": "root",
-    "password": "rootpassword",
-    "database": "tcoffee",
-    "host": "tcoffee.c5mwy4oay2q7.ap-southeast-1.rds.amazonaws.com",
+    "username": "bitappvn_root",
+    "password": "BIT@123456Aa",
+    "database": "bitappvn_coffee",
+    "host": "103.200.23.68",
     "dialect": "mysql"
   }
 }
