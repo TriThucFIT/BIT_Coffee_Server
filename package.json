@@ -2,13 +2,7 @@
   "name": "bit-coffee",
   "private": false,
   "version": "1.1.0",
-  "engines": {
-    "node": "20.x"
-  },
-  "scripts": {
-    "dev": "nodemon index.js",
-    "start": "node index.js"
-  },
+"main":"index.js",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",

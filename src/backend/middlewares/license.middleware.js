@@ -9,6 +9,7 @@ const App_id = process.env.APP_ID;
  */
 exports.theFirstTimeSetup = async (req, res, next) => {
   try {
+      console.log(req.url);
     if (/\/customer/.test(req.url) && req.method === "POST") {
       return next();
     }

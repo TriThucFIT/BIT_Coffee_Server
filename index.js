@@ -67,6 +67,6 @@ app.use(`/api/${process.env.API_VERSION}/feedback`, feedbackRouter);
 
 app.listen(() => {
   console.log(
-    `Server is running...`
+    `Server is running on host ${process.env.HOST} port ${process.env.PORT}`
   );
 });
